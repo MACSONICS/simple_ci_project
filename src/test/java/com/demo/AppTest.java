@@ -14,5 +14,8 @@ class AppTest {
         assertEquals(5, App.add(2, 3));
     }
 
-    
+    @Test
+    void testSquare() {
+        assertEquals(25, App.square(5));
+    }
 }
