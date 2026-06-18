@@ -13,6 +13,10 @@ class AppTest {
     void testAdd() {
         assertEquals(5, App.add(2, 3));
     }
+    @Test
+    void testMinus() {
+        assertEquals(-1, App.add(2, 3));
+    }
 
     @Test
     void testSquare() {
