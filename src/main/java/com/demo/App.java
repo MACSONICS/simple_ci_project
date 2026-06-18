@@ -10,7 +10,10 @@ public class App {
     public static int square(int x) {
         return x * x;
     }
-
+    public  void display()
+    {
+        System.out.println("display data");
+    }    
     public static void main(String[] args) {
         System.out.println(greet());
         System.out.println("Calculator Demo:");
